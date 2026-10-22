@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaccoTrack</title>
+    <link rel="stylesheet" href="sacco.css">
+</head>
+
+<body bgcolor="#f4f4f4">
+    <h1 class="h1">SaccoTrack Web Apk</h1>
+    <!-- <div class="board" aria-label="Sample remittance board">
+        <h3><span>Today's Remittance</span></h3>
+        <div class="row"><span>KDA 214K</span><span class="plate">KES 6,000</span><span class="tag ok">Target
+                met</span></div>
+        <div class="row"><span>KCQ 580T</span><span class="plate">KES 3,500</span><span class="tag low">-
+                2,500</span></div>
+        <div class="row"><span>KDG 097M</span><span class="plate">KES 5,200</span><span class="tag wait">In
+                service</span></div>
+        <div class="row"><span>KCY 341B</span><span class="plate">Not yet</span><span class="tag low">Pending</span>
+        </div> -->
+
+
+    </div>
+    </div>
+    </section>
+
+    <section>
+
+        <div class="wrap">
+            <div class="tabs" role="tablist" id="tabs"></div>
+            <div class="panel" id="panel"></div>
+
+            <div class="calc" id="calc">
+
+                <h3 class="btn">Profit Calculator</h3>
+                <p class="muted">Enter your numbers to see what your fleet should earn, and what leaks out when
+                    remittance isn't tracked.</p>
+                <label for="veh">Number of vehicles</label><input class="inp" id="veh" type="number" min="1" value="10">
+                <label for="tgt">Daily target per vehicle (KES)</label><input class="inp" id="tgt" type="number" min="0"
+                    value="5000">
+                <label for="exp">Daily expenses per vehicle (KES)</label><input class="inp" id="exp" type="number"
+                    min="0" value="2200">
+                <label for="days">Working days per month</label><input class="inp" id="days" type="number" min="1"
+                    max="31" value="26">
+                <label for="leak">Money lost to shortfalls and untracked cash (%)</label><input class="inp" id="leak"
+                    type="number" min="0" max="100" value="10">
+            </div>
+            <div class="out" aria-live="polite">
+                <div><span>Expected monthly income</span><span id="o1">-</span></div>
+                <div><span>Lost without tracking</span><span id="o2">-</span></div>
+                <div><span>Monthly expenses</span><span id="o3">-</span></div>
+                <div><span>Profit without tracking</span><span id="o4">-</span></div>
+                <div class="big" id="bigrow"><span>Profit with SaccoTrack</span><span id="o5">-</span></div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <footer>
+        <div class="wrap">
+            <div class="fgrid">
+                <div>
+                    <h3 style="font-family: 'Poppins', sans-serif; color:#870a0a ;">About SaccoTrack</h3>
+                    <p class="muted">SaccoTrack is a web application that helps sacco managers and fleet owners
+                        track daily remittance, expenses, and document expiry alerts. It provides simple reports
+                        to help you make informed decisions.</p>
+                    <p style="font-family: 'Poppins', sans-serif; color: rgb(13, 208, 75);">Vehicles, drivers and daily
+                        money in one
+                        place.</p>
+                </div>
+
+
+            </div>
+            <div class="copyright" id="yr">2026</span> SaccoTrack Built by Metro & Co. All rights reserved.</div>
+        </div>
+    </footer>
+    <script src="sacco.js"></script>
+
+
+
+</body>
+
+</html>

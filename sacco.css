@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.h1 {
+  text-align: center;
+  font-family: "italic", sans-serif;
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  color: #870a0a;
+  background-color: #edecec;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  width: 70%;
+  height: 20px;
+}
+
+.muted {
+  color: #1a65a7;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: "Arial", sans-serif;
+}
+
+.board {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: "Arial", sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+}
+
+.h3 {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+}
+
+.muted {
+  color: #6c757d;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: "Arial", sans-serif;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.plate {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-right: 100px;
+  margin-left: 10px;
+  display: grid;
+  gap: 10px;
+  text-align: center;
+}
+
+.tag ok {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+
+.tag low {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+
+.tag wait {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.out {
+  color: rgb(80, 152, 13);
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  margin-right: 10px;
+  align-items: center;
+  display: grid;
+  margin-top: 20px;
+}
+
+.cash {
+  color: rgb(80, 152, 13);
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  margin-right: 10px;
+  align-items: center;
+  margin-left: 250px;
+  align-items: center;
+  display: grid;
+}
+
+.calc {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: "Arial", sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background-color: #ece9e9;
+  height: 300px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inp {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+}
+
+.fgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  background-color: #ccc8c8;
+  padding: 20px;
+}
+
+.a tags {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #aeb3b8;
+  padding: 20px;
+}
+
+footer {
+  background-color: #ccc8c8;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #6c757d;
+  font-family: "Arial", sans-serif;
+}
+
+.out div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
