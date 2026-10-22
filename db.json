@@ -1,0 +1,8 @@
+
+{
+    "remittance":[
+        {"id":1, "plate":"KDA 214K", "amount": 6000, "status": "Target Met"},
+        {"id":2, "plate":"KDB 414K", "amount": 5000, "status": "Target Not Met"}
+        
+    ]
+}

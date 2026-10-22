@@ -35,6 +35,28 @@ html {
   height: 20px;
 }
 
+.calcbutton {
+  background-color: #4caf50;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  margin-left: 400px;
+}
+
+.calcbutton:hover {
+  background-color: #04845e;
+  transition: background-color 0.5s ease-in-out;
+}
+
 .muted {
   color: #1a65a7;
   font-size: 14px;
@@ -187,4 +209,100 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 5px 0;
+}
+
+/* Landing page styles */
+
+.HEADER {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+  font-size: 65px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  color: #870a0a;
+  background-color: #6cec68;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 10px;
+}
+
+.wrapLP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-color: #cecbcb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.wrapNV {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #cecbcb;
+  border-radius: 30px;
+}
+
+.words {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.btn2 {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+
+.navlinks a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.navlinks a:hover {
+  color: #4caf50;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cecbcb;
+  padding: 10px 0;
+  border-radius: 30px;
+}
+
+.copyright2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #6c757d;
+  font-family: "Arial", sans-serif;
+}
+
+.words2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
 }

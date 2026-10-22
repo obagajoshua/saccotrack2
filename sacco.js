@@ -23,13 +23,24 @@ function calculate() {
     document.getElementById("o4").textContent = "KES " + profitWithout;
     document.getElementById("o5").textContent = "KES " + profitWith;
 
-
-    document.getElementById("veh").addEventListener("input", calculate);
-    document.getElementById("tgt").addEventListener("input", calculate);
-    document.getElementById("exp").addEventListener("input", calculate);
-    document.getElementById("days").addEventListener("input", calculate);
-    document.getElementById("leak").addEventListener("input", calculate);
-
 }
 
 calculate(); //display results on page load
+
+//calculate button event listener
+document.getElementById("calcbtn").addEventListener("click", calculate);
+
+
+fetch('db.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log('Data:', data);
+    })
+    .catch(error => {
+        console.error('Error fetching data:', error);
+    });
+
+//copyright year update
+const yearElement = document.getElementById("year");
+const currentYear = new Date().getFullYear();
+yearElement.textContent = currentYear;
