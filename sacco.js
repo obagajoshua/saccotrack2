@@ -31,7 +31,7 @@ calculate(); //display results on page load
 document.getElementById("calcbtn").addEventListener("click", calculate);
 
 
-fetch('db.json')
+fetch('https://obagajoshua.github.io/saccotrack2/db.json')
     .then(response => response.json())
     .then(data => {
         console.log('Data:', data);
