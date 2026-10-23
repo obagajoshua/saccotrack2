@@ -1,8 +1,18 @@
-
 {
-    "remittance":[
-        {"id":1, "plate":"KDA 214K", "amount": 6000, "status": "Target Met"},
-        {"id":2, "plate":"KDB 414K", "amount": 5000, "status": "Target Not Met"}
-        
-    ]
+  "remittance": [
+    { "id": 1, "plate": "KDA 214K", "amount": 6000, "status": "Target met" },
+    { "id": 2, "plate": "KDB 414K", "amount": 3500, "status": "Short" }
+  ],
+  "vehicles": [
+    { "id": 1, "plate": "KDA 214K", "route": "Route 46", "capacity": 33, "status": "active", "insuranceExpiry": "2026-12-31" },
+    { "id": 2, "plate": "KDB 414K", "route": "Route 23", "capacity": 14, "status": "in service", "insuranceExpiry": "2026-11-15" }
+  ],
+  "drivers": [
+    { "id": 1, "name": "John Kamau", "phone": "0735872302", "licenseNo": "DL12345", "vehicle": "KDA 214K" },
+    { "id": 2, "name": "Mary Wanjiku", "phone": "0745786439", "licenseNo": "DL67890", "vehicle": "KDB 414K" }
+  ],
+  "expenses": [
+    { "id": 1, "plate": "KDA 214K", "type": "Fuel", "amount": 2500, "date": "2026-10-22" },
+    { "id": 2, "plate": "KDB 414K", "type": "Repair", "amount": 4000, "date": "2026-10-21" }
+  ]
 }
